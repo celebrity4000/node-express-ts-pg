@@ -39,6 +39,51 @@ project-root/
 
 ---
 
+### 🐧 Linux / 🖥️ WSL / 💻 MacOS
+
+#### Download using curl
+
+```bash
+curl -L -o setup_node_express_ts_pg.sh https://raw.githubusercontent.com/celebrity4000/node-express-ts-pg/main/setup.sh
+```
+
+#### Or using wget
+
+```bash
+wget https://raw.githubusercontent.com/celebrity4000/node-express-ts-pg/main/setup.sh -O setup_node_express_ts_pg.sh
+```
+
+#### Make the script executable and run it
+
+```bash
+chmod +x setup_node_express_ts_pg.sh
+./setup_node_express_ts_pg.sh
+```
+
+---
+
+### 🪟 Git Bash (on Windows)
+
+#### Download using curl
+
+```bash
+curl -L -o setup_node_express_ts_pg.sh https://raw.githubusercontent.com/celebrity4000/node-express-ts-pg/main/setup.sh
+```
+
+#### Make the script executable
+
+```bash
+chmod +x setup_node_express_ts_pg.sh
+```
+
+#### Run the script
+
+```bash
+./setup_node_express_ts_pg.sh
+```
+
+---
+
 ## ⚙️ Environment Setup
 
 ### 1. Clone the repo
